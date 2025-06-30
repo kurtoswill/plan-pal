@@ -1,0 +1,47 @@
+{
+  "vaultcreated": [
+    {
+      "id": "1",
+      "name": "AWS Learning Club - Spade",
+      "year": "2024-2025",
+      "role": "Admin",
+      "contributors": 54,
+      "avatar": "/images/aws.png"
+    }
+  ],
+
+  "vault": [
+    {
+      "id": "4",
+      "name": "Musikeros",
+      "year": "2016-2026",
+      "role": "Member",
+      "contributors": 102,
+      "avatar": "/images/musikeros.jpg"
+    },
+    {
+      "id": "3",
+      "name": "CEIT Student Council",
+      "year": "2024-2026",
+      "role": "Member",
+      "contributors": 102,
+      "avatar": "/images/ceit.jpg"
+    },
+    {
+      "id": "2",
+      "name": "University First Year - Student Council",
+      "year": "2024-2026",
+      "role": "Member",
+      "contributors": 102,
+      "avatar": "/images/ufy.png"
+    },
+    {
+      "id": "1",
+      "name": "Computer Science Student Organization",
+      "year": "2024-2026",
+      "role": "Moderator",
+      "contributors": 62,
+      "avatar": "/images/csso.png"
+    }
+  ]
+}
