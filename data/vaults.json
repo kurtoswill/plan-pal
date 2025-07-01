@@ -6,7 +6,8 @@
       "year": "2024-2025",
       "role": "Admin",
       "contributors": 54,
-      "avatar": "/images/aws.png"
+      "avatar": "/images/aws.png",
+      "balance": "4836"
     }
   ],
 
@@ -17,7 +18,8 @@
       "year": "2016-2026",
       "role": "Member",
       "contributors": 102,
-      "avatar": "/images/musikeros.jpg"
+      "avatar": "/images/musikeros.jpg",
+      "balance": "4836"
     },
     {
       "id": "3",
@@ -25,7 +27,8 @@
       "year": "2024-2026",
       "role": "Member",
       "contributors": 102,
-      "avatar": "/images/ceit.jpg"
+      "avatar": "/images/ceit.jpg",
+      "balance": "4836"
     },
     {
       "id": "2",
@@ -33,7 +36,8 @@
       "year": "2024-2026",
       "role": "Member",
       "contributors": 102,
-      "avatar": "/images/ufy.png"
+      "avatar": "/images/ufy.png",
+      "balance": "4836"
     },
     {
       "id": "1",
@@ -41,7 +45,8 @@
       "year": "2024-2026",
       "role": "Moderator",
       "contributors": 62,
-      "avatar": "/images/csso.png"
+      "avatar": "/images/csso.png",
+      "balance": "4836"
     }
   ]
 }

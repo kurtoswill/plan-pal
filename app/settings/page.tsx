@@ -7,7 +7,12 @@ const Page = () => {
     return (
         <main>
             <header className="relative flex items-center">
-                <ChevronLeft className="absolute left-0" />
+               <a
+                   href="/dashboard"
+                   className="absolute left-0"
+               >
+                   <ChevronLeft />
+               </a>
                 <p className="mx-auto text-[20px]">Settings</p>
             </header>
 
