@@ -50,7 +50,7 @@ const Page = () => {
                                        <div>
                                            <p className='font-normal text-[14px]'>Current Balance:</p>
                                            <p className="font-normal text-[18px]">
-                                               ₱ {vault.balance}
+                                               ₱ {Number(vault.balance).toLocaleString()}
                                            </p>
                                        </div>
                                        <img
@@ -79,7 +79,7 @@ const Page = () => {
                                        <div>
                                            <p className='font-normal text-[14px]'>Current Balance:</p>
                                            <p className="font-normal text-[18px]">
-                                               ₱ {vault.balance}
+                                               ₱ {Number(vault.balance).toLocaleString()}
                                            </p>
                                        </div>
                                        <img
