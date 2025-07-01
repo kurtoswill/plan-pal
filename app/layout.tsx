@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${geistMono.variable} antialiased sm:m-6 lg:mx-[500px] lg:my-[50px]`} // Use the Outfit font here
+        className={`${outfit.variable} ${geistMono.variable} antialiased m-6 mb-[100px] lg:mx-[500px]`} // Use the Outfit font here
       >
       <Navbar />
         {children}
