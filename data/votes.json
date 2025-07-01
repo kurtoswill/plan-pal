@@ -1,0 +1,22 @@
+{
+  "post": [
+    {
+      "id": 2,
+      "title": "Approve 1,200 for water dispenser",
+      "org": "Computer Science Student Organization",
+      "author": "Sahara Nedia",
+      "contributors": "62",
+      "votes": "43",
+      "days": "3"
+    },
+    {
+      "id": 1,
+      "title": "Approve 365 for sponsorship with Print.co",
+      "org": "University First Year - Student Council (CPEA)",
+      "author": "General Kailyn",
+      "contributors": "24",
+      "votes": "3",
+      "days": "10"
+    }
+  ]
+}
