@@ -26,7 +26,7 @@ const Page = () => {
                     />
                 )}
                 <p className='text-center font-semibold text-[20px]'>
-                    {data.profile.length > 0 ? data.profile[0].name : "No profile"}
+                    {data.profile.length > 0 ? data.profile[1].name : "No profile"}
                 </p>
             </div>
             <SettingsChoices />
