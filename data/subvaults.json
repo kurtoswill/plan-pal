@@ -1,0 +1,25 @@
+{
+  "subvaults": [
+    {
+      "id": "3",
+      "org": "aws",
+      "name": "Merch Vault",
+      "balance": "620",
+      "target": "650"
+    },
+    {
+      "id": "2",
+      "org": "aws",
+      "name": "Core team polo shirts",
+      "balance": "1200",
+      "target": "5200"
+    },
+    {
+      "id": "1",
+      "org": "aws",
+      "name": "Next term funds",
+      "balance": "1000",
+      "target": "2000"
+    }
+  ]
+}
