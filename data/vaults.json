@@ -7,7 +7,8 @@
       "role": "Admin",
       "contributors": 54,
       "avatar": "/images/aws.png",
-      "balance": "4836"
+      "balance": "4836",
+      "qr": "/images/qr-code.png"
     }
   ],
 

@@ -1,8 +1,7 @@
-import React from 'react';
-import { ChevronLeft, Share2, Settings, QrCode  } from "lucide-react";
-import data from "@/data/vaults.json";
+import { ChevronLeft, Share2, Settings, QrCode } from "lucide-react";
 import OrganizationNavbar from "@/components/OrganizationNavbar";
-import TransactionCard from "@/components/TransactionCard";
+import data from "@/data/vaults.json";
+import roles from "@/data/roles.json";
 
 const Page = () => {
     return (
@@ -12,15 +11,15 @@ const Page = () => {
                     href="/dashboard"
                     className="flex items-center"
                 >
-                    <ChevronLeft width={30} height={30}/>
+                    <ChevronLeft width={30} height={30} />
                 </a>
 
                 <div className="flex items-center gap-4 opacity-50">
                     <a>
-                        <Share2 width={30} height={30}/>
+                        <Share2 width={30} height={30} />
                     </a>
                     <a>
-                        <Settings width={30} height={30}/>
+                        <Settings width={30} height={30} />
                     </a>
                 </div>
             </header>
@@ -33,19 +32,19 @@ const Page = () => {
                                 <h1 className="text-headline text-[20px]">{vault.name}</h1>
                                 <a>
                                     <QrCode
-                                        className='opacity-50'
+                                        className="opacity-50"
                                     />
                                 </a>
                             </div>
 
-                            <div className='font-normal text-[12px] opacity-75 -mt-[15px] mb-[20px]'>
+                            <div className="font-normal text-[12px] opacity-75 -mt-[15px] mb-[20px]">
                                 <p>Vault ID: {vault.id}</p>
                                 <p>{vault.year}</p>
                             </div>
 
                             <div className="flex items-center justify-between mt-auto">
                                 <div>
-                                    <p className='font-normal text-[14px]'>Current Balance:</p>
+                                    <p className="font-normal text-[14px]">Current Balance:</p>
                                     <p className="font-normal text-[18px]">
                                         ₱ {Number(vault.balance).toLocaleString()}
                                     </p>
@@ -65,13 +64,28 @@ const Page = () => {
 
             <OrganizationNavbar />
 
-            <button
-                className='bg-[#5C33F6] px-3 py-3 text-white font-normal rounded-[12px] my-[20px] w-full'
-            >
-                Transfer
-            </button>
+            <div className="mt-4">
+                <p className="text-[18px]">Head</p>
+                <div className="mt-2 font-normal border border-black/5 rounded-[12px] p-2 shadow">
+                    {roles.head.map((head, index) => (
+                        <p key={index} className="text-[16px]">{head.name}</p>
+                    ))}
+                </div>
 
-            <TransactionCard />
+                <p className="text-[18px] mt-6">Moderators ({roles.moderators[0].name.length})</p>
+                <div className="mt-2">
+                    {roles.moderators[0].name.map((moderator: string, index: number) => (
+                        <p key={index} className="text-[16px] font-normal border border-black/5 rounded-[12px] p-2 my-1 shadow">{moderator}</p>
+                    ))}
+                </div>
+
+                <p className="text-[18px] mt-6">Members ({roles.members[0].name.length})</p>
+                <div className="mt-2">
+                    {roles.members[0].name.map((member: string, index: number) => (
+                        <p key={index} className="text-[16px] font-normal border border-black/5 rounded-[12px] p-2 my-1 shadow">{member}</p>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 };
