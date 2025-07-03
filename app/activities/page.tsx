@@ -1,8 +1,12 @@
+'use client';
+
 import React from 'react';
 import { Funnel } from 'lucide-react';
 import activity from '@/data/activity.json';
+import { useState } from 'react';
 
 const Page = () => {
+    const [isActive, setIsActive] = useState(false);
     const todayActivities = activity.today;
     const pastActivities = activity.pastdays;
 
@@ -13,7 +17,15 @@ const Page = () => {
             <div>
                 <div className="flex justify-between items-center">
                     <p className="text-[24px]">Today</p>
-                    <Funnel />
+                    <Funnel
+                        onClick={() => setIsActive(!isActive)}
+                        style={{
+                            cursor: 'pointer',
+                            stroke: isActive ? '#5C33F6' : 'currentColor',
+                            fill: isActive ? '#5C33F6' : 'none',
+                            transition: 'all 0.2s ease',
+                        }}
+                    />
                 </div>
                 <div className='mt-4'>
                     {todayActivities.length > 0 ? (
