@@ -16,7 +16,7 @@ const Page = () => {
                 <p className="mx-auto text-[20px]">Receive</p>
             </header>
 
-            <div className="flex flex-col justify-center items-center mt-[20 0px]">
+            <div className="flex flex-col justify-center items-center mt-[200px]">
                 {vault ? (
                     <>
                         <img
