@@ -1,0 +1,36 @@
+{
+  "today": [
+    {
+      "id": "3",
+      "caption": "Kurt started a vote for “Approve 1,200 for Kick Off”",
+      "time": "4"
+    },
+    {
+      "id": "2",
+      "caption": "Kurt Oswill voted in Computer Science Student Organization",
+      "time": "4"
+    },
+    {
+      "id": "1",
+      "caption": "Zean Kurt voted in Computer Science Student Organization",
+      "time": "3"
+    }
+  ],
+  "pastdays": [
+    {
+      "id": "3",
+      "caption": "Extension cord purchased for “TechWeek 2025”",
+      "time": "4"
+    },
+    {
+      "id": "2",
+      "caption": "Kazel Tuazon contributed 60 in Computer Science Student Organization",
+      "time": "4"
+    },
+    {
+      "id": "1",
+      "caption": "Event DEVCON ended, contributors are automatically refunded",
+      "time": "3"
+    }
+  ]
+}
