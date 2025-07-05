@@ -11,7 +11,7 @@ interface Vault {
     avatar: string;
 }
 
-const CreatedVaultCard = () => {
+const VaultCard = () => {
     return (
         <div className='font-semibold border-1 rounded-[12px] p-3 border-black/5 shadow'>
             {data.vaultcreated.map((vault: Vault) => (
@@ -35,4 +35,4 @@ const CreatedVaultCard = () => {
     );
 };
 
-export default CreatedVaultCard;
+export default VaultCard;
