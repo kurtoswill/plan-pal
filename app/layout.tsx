@@ -26,9 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${geistMono.variable} antialiased m-6 mb-[100px] lg:mx-[500px]`} // Use the Outfit font here
+        className={`${outfit.variable} ${geistMono.variable} antialiased m-6 mb-[100px] lg:mx-[500px]`}
+        style={{ background: 'linear-gradient(190deg, #361E90, #5C33F6)' }}
       >
-      <Navbar />
+        <Navbar />
         {children}
       </body>
     </html>

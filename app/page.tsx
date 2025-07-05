@@ -1,12 +1,13 @@
-import React from 'react';
-import Navbar from "@/components/Navbar";
-import VoteCards from "@/components/VoteCards";
+"use client";
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 const Page = () => {
-    return (
-        <div>
-        </div>
-    );
+    const router = useRouter();
+    useEffect(() => {
+        router.replace('/onboarding');
+    }, [router]);
+    return null;
 };
 
 export default Page;
