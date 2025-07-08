@@ -8,7 +8,7 @@ import { p } from 'framer-motion/client';
 const Navbar = () => {
     const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
     // Hide Navbar on onboarding page
-    if (pathname === '/onboarding' || pathname === '/signup') return null;
+    if (pathname === '/onboarding' || pathname === '/signup' || pathname === '/addsubvaults') return null;
     return (
         <div className="fixed bottom-[20px] left-0 right-0 flex justify-center bg-white">
             <div className="text-black py-3 m-2 border rounded-[12px] w-[300px]">
