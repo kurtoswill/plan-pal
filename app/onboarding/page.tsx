@@ -157,12 +157,15 @@ export default function Page() {
                             </button>
                         </>
                     ) : (
-                        <button
-                            className="text-black rounded-[12px] px-40 py-2 text-lg font-medium ml-4 hover:bg-opacity-80 transition-colors duration-300"
-                            style={{ backgroundColor: 'white' }}
-                        >
-                            Start
-                        </button>
+
+                        <a href='/signup'>
+                            <button
+                                className="text-black rounded-[12px] px-40 py-2 text-lg font-medium ml-4 hover:bg-opacity-80 transition-colors duration-300 justify-center items-center"
+                                style={{ backgroundColor: 'white' }}
+                            >
+                                Start
+                            </button>
+                        </a>
                     )}
                 </div>
             </div>

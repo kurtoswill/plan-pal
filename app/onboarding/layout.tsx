@@ -5,13 +5,8 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body
-                className={`lg:mx-[500px]`}
-            >
-                <Navbar />
-                {children}
-            </body>
-        </html>
+        <body>
+            {children}
+        </body>
     );
 }
