@@ -18,18 +18,18 @@ export const metadata: Metadata = {
 };
 
 export default function SignupLayout({
-                                         children,
-                                     }: Readonly<{
+    children,
+}: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
         <html lang="en">
-        <body
-            className={`${outfit.variable} ${geistMono.variable} antialiased m-6 mb-[100px] lg:mx-[500px]`}
-        >
-        {/* ✅ No Navbar here */}
-        {children}
-        </body>
+            <body
+                className={`${outfit.variable} ${geistMono.variable} antialiased m-6 mb-[100px] lg:mx-[500px]`}
+            >
+                {/* ✅ No Navbar here */}
+                {children}
+            </body>
         </html>
     );
 }

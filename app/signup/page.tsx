@@ -8,7 +8,7 @@ const Page = () => {
             <h1
                 className='font-bold text-center text-4xl mb-[60px]'
             >
-                Start Planning <br/> Smarter Together
+                Start Planning <br /> Smarter Together
             </h1>
 
             <SocialSignUp />
