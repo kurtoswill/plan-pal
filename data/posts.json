@@ -1,0 +1,24 @@
+{
+  "post": [
+    {
+      "id": "2",
+      "title": "AWS Serverless Workshop",
+      "author": "Elreen Aya De Guzman",
+      "days": "3",
+      "caption": "An amount of ₱600 will be withdrawn by the Chief of Finance to cover the necessary expenses for the AWS  Serverless Workshop scheduled on June 14. [insert date here]. The fund will be used for the following:\n\nSnacks and Refreshments – ₱250\nTo provide light snacks and drinks for workshop participants and facilitators.\n\nPrinting of Certificates and Materials – ₱150\nFor printing certificates of participation, workshop handouts, and related materials.\n\nOffice and Technical Supplies – ₱100\nIncludes pens, notepads, markers, and other minor workshop essentials.\n\nContingency Fund – ₱100\nReserved for any unforeseen or additional expenses that may arise during the activity.\n\nAll expenditures will be properly documented, and a liquidation report will be submitted to the Finance Office within three (3) working days after the event, in accordance with the organization’s financial policies and procedures.",
+      "approved": "43",
+      "rejected": "5",
+      "required": "32"
+    },
+    {
+      "id": "1",
+      "title": "Campus DEVCON",
+      "author": "Elreen Aya De Guzman",
+      "days": "3",
+      "caption": "An amount of ₱1,200 will be withdrawn by the Chief of Finance to cover the necessary expenses for the Campus DEVCON Event scheduled on July 1. The fund will be used for the following:\nSnacks and Refreshments – ₱500\u2028 To provide light snacks and drinks for participants, organizers, and guest speakers during the event.\nCertificates and Printing Materials – ₱200\u2028 For the printing of certificates of participation, event programs, and other necessary documents.\nEvent Tarpaulin/Banner – ₱150\u2028 For the creation of a tarpaulin or banner to promote and brand the event.\nOffice and Event Supplies – ₱100\u2028 Includes materials such as pens, paper, folders, markers, name tags, etc.\nTransportation Allowance – ₱100\u2028 To support the travel expenses of invited speakers or resource persons, if applicable.\nContingency Fund – ₱150\u2028 Reserved for any unforeseen or emergency expenses that may arise during the event.\nA detailed liquidation report will be submitted to the Finance Office within three (3) working days after the event to ensure accountability and proper documentation of expenses.",
+      "approved": "43",
+      "rejected": "2",
+      "required": "32"
+    }
+  ]
+}
