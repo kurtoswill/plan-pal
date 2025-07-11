@@ -3,12 +3,11 @@ import { ChevronLeft, Share2, Settings, QrCode  } from "lucide-react";
 import data from "@/data/vaults.json";
 import PostingCards from "@/components/PostingCards";
 import OrganizationNavbar from "@/components/OrganizationNavbar";
-import SubVaultCards from "@/components/SubVaultCards";
 
 const Page = () => {
     return (
         <div>
-            <header className="relative flex items-center justify-between align-center fixed">
+            <div className="flex items-center justify-between align-center">
                 <a
                     href="/dashboard"
                     className="flex items-center"
@@ -24,7 +23,7 @@ const Page = () => {
                         <Settings width={30} height={30}/>
                     </a>
                 </div>
-            </header>
+            </div>
 
             {data.vaultcreated.map((vault: any) => (
                 <div key={vault.id}>
@@ -73,6 +72,8 @@ const Page = () => {
             </button>
 
             <PostingCards />
+
+
         </div>
     );
 };
