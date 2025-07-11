@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PlanPal
+
+PlanPal is a simple platform where organizations can transparently store and manage group funds without the need for complex paperwork or traditional bank processes. Using a secure escrow model, the app ensures that funds are visible and traceable — while never being directly held by PlanPal itself.
+
+---
+
+## Features
+
+- 🔐 **Role-Based Access**  
+Admins, moderators, members, and contributors — each with clearly defined permissions.
+
+- 🏦 **Vault Creation**  
+  Create main vaults and allocate funds to sub-vaults for different committees, events, or projects.
+
+- 💸 **Track Contributions Automatically**  
+  See who paid, how much, and when — all without spreadsheets.
+
+- ♻️ **Optional Auto Refunds**  
+  Unused funds can be automatically returned to contributors after a set time (excluding contributors).
+
+- 🧩 **Escrow-Based Architecture**  
+  We do not store the money. It’s held safely through third-party wallets or services like Brankas (in future versions).
+
+| Role            | Can Pay | Can Spend | Can Vote | Can Be Refunded |
+| --------------- | ------- | --------- | -------- | --------------- |
+| **Admin**       | ✅       | ✅         | ✅        | ✅               |
+| **Moderator**   | ✅       | ✅         | ✅        | ✅               |
+| **Member**      | ✅       | ❌         | ✅        | ✅               |
+| **Contributor** | ✅       | ❌         | ❌        | ❌               |
+
+
+## Tech Stack
+
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Database**: Supabase (PostgreSQL)
+- **Auth**: Supabase Auth
+- **Coming Soon**: Brankas integration (for real-world fund disbursement)
+
+---
 
 ## Getting Started
 
-First, run the development server:
+- PlanPal is currently in **prototype stage**. This is a personal project made for experimentation and learning. <br>
+- All vault names, organization titles, contributor details, and logos are **fictional and used strictly as sample data.**
+- **PlanPal does not hold or manage real funds.** It simulates an escrow-like system for demonstration only.
+- This project is not intended for production use until full security audits, legal compliance checks, and integration with licensed financial APIs are completed.
+<br>
+<br>
+  Please **do not** use this app to manage real money or represent actual organizations at this stage.
+
+## Future Plans
+
+    ✅ Mobile-responsive experience
+    ✅ Role-based permissions
+    ⏳ Brankas integration
+    ⏳ Public vault sharing
+    ⏳ Invite and access requests
+    ⏳ Export and print ledger
+### To run locally:
 
 ```bash
+git clone https://github.com/kurtoswill/plan-pal.git
+cd planpal
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acknowledgements
+-
+- Next.js
+- Tailwind CSS
+- Supabase
+- Lucide Icons
+- Shadcn
